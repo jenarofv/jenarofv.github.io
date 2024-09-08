@@ -7,7 +7,7 @@ body {
 header h1 {
   text-align: center;
   font-size: 4rem;
-  font-weight: 800;
+  font-weight: lighter;
   letter-spacing: 0.3rem;
 }
 
@@ -28,4 +28,10 @@ nav ul li :hover{
   color: slategray;
   transition: 150ms;
   text-decoration: none;
+}
+
+dt {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 2.5rem;
 }
