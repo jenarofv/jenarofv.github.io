@@ -1,0 +1,5 @@
+- improve style via CSS
+- make website responsive with a mobile-first approach
+- add dark theme
+- fill in hard and soft skills
+- profile picture?
