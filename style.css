@@ -2,6 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   padding-right: 20px;
+  background: linear-gradient(hsl(175deg, 44%, 75%), #fdf9e4);
 }
 
 header h1 {
@@ -34,4 +35,12 @@ dt {
   display: list-item;
   list-style-type: disc;
   margin-left: 2.5rem;
+}
+
+@media only screen and (min-width: 1000px){
+  main {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
