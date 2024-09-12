@@ -13,19 +13,16 @@ header h1 {
 }
 
 nav {
-  text-align: center;
+  max-width: 70ch;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  font-size: 1rem;
 }
 
-nav ul {
-  padding-left: 0;
-}
-
-nav ul li{
-  display: inline-block;
-  margin: auto 0.8rem;
-}
-
-nav ul li :hover{
+nav div :hover{
   color: slategray;
   transition: 150ms;
   text-decoration: none;
