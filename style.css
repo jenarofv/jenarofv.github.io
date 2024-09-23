@@ -28,6 +28,26 @@ nav div :hover{
   text-decoration: none;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1;
+}
+
+#about, #hobbies, #interests{
+  grid-column: 1;
+}
+
+#about img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+#jobs, #education, #skills {
+  grid-column: 2;
+}
+
+
 dt {
   display: list-item;
   list-style-type: disc;
