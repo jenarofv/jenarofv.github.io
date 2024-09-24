@@ -12,38 +12,38 @@ header h1 {
   letter-spacing: 0.8rem;
 }
 
-nav {
-  max-width: 70ch;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-between;
-  font-size: 1rem;
+header p {
+  max-width: 90ch;
+  margin: 1rem auto;
 }
 
-nav div :hover{
-  color: slategray;
-  transition: 150ms;
-  text-decoration: none;
+h2 {
+  text-align: center;
+  font-weight: light;
+  letter-spacing: 0.5ch;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1;
+  max-width: 90ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#about, #hobbies, #interests{
+#panel {
   grid-column: 1;
 }
 
-#about img {
+#panel img {
   width: 80%;
   border-radius: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-#jobs, #education, #skills {
+#education {
   grid-column: 2;
 }
 
@@ -52,12 +52,4 @@ dt {
   display: list-item;
   list-style-type: disc;
   margin-left: 2.5rem;
-}
-
-@media only screen and (min-width: 1000px){
-  main {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
