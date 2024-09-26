@@ -47,6 +47,11 @@ main {
   justify-content: space-between;
 }
 
+#github p :hover {
+  background-color: hsla(180deg, 50%, 50%, 80%);
+  border-radius: 1rem;
+}
+
 .skill img {
   max-width: 100%;
 }
