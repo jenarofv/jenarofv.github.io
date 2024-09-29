@@ -41,7 +41,7 @@ main {
 
 .skill {
   flex: 1 1 150px;
-  max-width: 30%;
+  max-width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -63,6 +63,7 @@ main {
 #panel {
   grid-column: 1;
   background-color: #6e6e8b4a;
+  padding: 0 1rem;
 }
 
 #profile-pic {
@@ -76,9 +77,12 @@ main {
   grid-column: 2;
 }
 
-
 dt {
   display: list-item;
   list-style-type: disc;
   margin-left: 2.5rem;
+}
+
+dd, li {
+  margin-bottom: 1rem;
 }
