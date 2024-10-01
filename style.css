@@ -15,6 +15,7 @@ header h1 {
 header p {
   max-width: 90ch;
   margin: 1rem auto;
+  text-align: center;
 }
 
 h2 {
@@ -41,7 +42,7 @@ main {
 
 .skill {
   flex: 1 1 150px;
-  max-width: 25%;
+  max-width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
