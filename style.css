@@ -93,3 +93,25 @@ dd, li {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
+.twin-buttons {
+  display: inline-flex;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1px 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.button:active {
+  background-color: darkgray;
+  color: white;
+}
