@@ -59,6 +59,7 @@ main {
 
 .skill p {
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 #panel {
