@@ -1,0 +1,15 @@
+@media only screen and (width <= 480px) {
+ header h1 {
+  letter-spacing: normal;
+ } 
+ 
+ main {
+  display: flex;
+  flex-direction: column;
+ }
+
+ #panel {
+   background-color: unset;
+   padding: 0 1rem;
+ }
+}
