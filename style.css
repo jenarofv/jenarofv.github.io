@@ -5,6 +5,22 @@ body {
   background: linear-gradient(hsl(175deg, 44%, 75%), #fdf9e4);
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background : #222;
+    color: white;
+  }
+
+  .logo {
+    background-color: #ccc;
+    box-shadow: 0 0 3px 3px #ccc;
+  }
+
+  .textlink {
+    color: turquoise;
+  }
+}
+
 header h1 {
   text-align: center;
   font-size: 4rem;
