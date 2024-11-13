@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 body {
   font-family: "Reddit Sans Condensed", sans-serif;
   padding-left: 20px;
@@ -18,6 +22,14 @@ body {
 
   .textlink {
     color: turquoise;
+  }
+
+  .button:link {
+    color: turquoise;
+  }
+
+  .button:visited {
+    color: #d9f7f3;
   }
 }
 
@@ -110,15 +122,11 @@ dd, li {
   margin-top: 0.5rem;
 }
 
-.twin-buttons {
-  display: inline-flex;
-}
-
 .button {
   display: inline-block;
   border: 1px solid black;
   padding: 1px 5px;
-  background-color: white;
+  background-color: light-dark(white, #47525C);
   border-radius: 5px;
 }
 
