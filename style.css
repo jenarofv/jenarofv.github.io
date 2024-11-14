@@ -1,36 +1,10 @@
-:root {
-  color-scheme: light dark;
-}
-
 body {
+  transition-duration: 1s;
   font-family: "Reddit Sans Condensed", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   background: linear-gradient(hsl(175deg, 44%, 75%), #fdf9e4);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background : #222;
-    color: white;
-  }
-
-  .logo {
-    background-color: #ccc;
-    box-shadow: 0 0 3px 3px #ccc;
-  }
-
-  .textlink {
-    color: turquoise;
-  }
-
-  .button:link {
-    color: turquoise;
-  }
-
-  .button:visited {
-    color: #d9f7f3;
-  }
+  color: black;
 }
 
 header h1 {
@@ -50,6 +24,14 @@ h2 {
   text-align: center;
   font-weight: light;
   letter-spacing: 0.5ch;
+}
+
+#themeSwitch {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 10ch;
+  display: block;
 }
 
 main {
@@ -126,7 +108,7 @@ dd, li {
   display: inline-block;
   border: 1px solid black;
   padding: 1px 5px;
-  background-color: light-dark(white, #47525C);
+  background-color: white;
   border-radius: 5px;
 }
 
@@ -138,4 +120,31 @@ dd, li {
 .button:active {
   background-color: darkgray;
   color: white;
+}
+
+body.darkBody {
+  transition-duration: 1s;
+  background : #222;
+  color: white;
+}
+
+.logo.darkLogo {
+  background-color: #ccc;
+  box-shadow: 0 0 3px 3px #ccc;
+}
+
+.textlink.darkText {
+  color: turquoise;
+}
+
+.button.darkButton {
+  background-color: #47525C;
+}
+
+.button.darkButton:link {
+  color: turquoise;
+}
+
+.button.darkButton:visited {
+  color: #d9f7f3;
 }
