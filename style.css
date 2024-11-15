@@ -91,8 +91,37 @@ main {
 
 dt {
   display: list-item;
-  list-style-type: disc;
+  list-style-type: "\25B8   ";
   margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+.entry {
+  width: max-content;
+  border: 1px solid black;
+  padding: 1px 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.entry.darkEntry {
+  border-color: white;
+}
+
+dt:hover {
+  list-style-type: "\25BE   ";
+}
+
+dt.show {
+  list-style-type: "\25BE   ";
+}
+
+.description {
+  display: none;
+}
+
+.description.show {
+  display: block;
 }
 
 ul ul {
