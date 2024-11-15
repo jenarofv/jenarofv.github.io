@@ -132,12 +132,12 @@ dd, li {
   border-radius: 5px;
 }
 
-.button:hover {
+.button:hover, .button.darkButton:hover {
   background-color: gray;
   color: white;
 }
 
-.button:active {
+.button:active, .button.darkButton:active{
   background-color: darkgray;
   color: white;
 }
