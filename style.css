@@ -8,7 +8,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   background: linear-gradient(hsl(175deg, 44%, 75%), #fdf9e4);
-  color: black;
+  color: light-dark(black, white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,7 +39,7 @@ header h1 {
   text-align: center;
   font-size: 4rem;
   font-weight: lighter;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.8rem;
 }
 
 header p {
@@ -51,7 +51,7 @@ header p {
 h2 {
   text-align: center;
   font-weight: light;
-  letter-spacing: 0.3ch;
+  letter-spacing: 0.5ch;
 }
 
 main {
@@ -118,14 +118,11 @@ dt {
 
 .entry {
   width: max-content;
-  border: 1px solid black;
+  border: 1px solid;
+  border-color: light-dark(black, white);
   padding: 1px 5px;
   margin-top: 20px;
   border-radius: 5px;
-}
-
-.entry.darkEntry {
-  border-color: white;
 }
 
 dt:hover {
@@ -161,12 +158,12 @@ dd, li {
   border-radius: 5px;
 }
 
-.button:hover, .button.darkButton:hover {
+.button:hover {
   background-color: gray;
   color: white;
 }
 
-.button:active, .button.darkButton:active{
+.button:active {
   background-color: darkgray;
   color: white;
 }
