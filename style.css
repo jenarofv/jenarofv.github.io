@@ -14,6 +14,7 @@ body {
 @media (prefers-color-scheme: dark) {
   body {
     background : #222;
+    color: white;
   }
 
   .logo {
@@ -93,15 +94,15 @@ main {
 
 #panel {
   grid-column: 1;
-  background-color: #6e6e8b4a;
+  background-color: whitesmoke;
   padding: 0 1rem;
 }
 
 #profile-pic {
-  width: 80%;
+  width: 60%;
   border-radius: 50%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #education {
@@ -145,8 +146,8 @@ ul ul {
 }
 
 dd, li {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .button {
