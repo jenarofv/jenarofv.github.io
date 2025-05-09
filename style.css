@@ -3,10 +3,12 @@
 }
 
 body {
+  transition-duration: 1s;
   font-family: "Reddit Sans Condensed", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
-  /* background: linear-gradient(hsl(175deg, 44%, 75%), #fdf9e4); */
+  background: linear-gradient(hsl(175deg, 44%, 75%), #fdf9e4);
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {
